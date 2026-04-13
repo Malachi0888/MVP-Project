@@ -1,21 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Campus Life App</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Campus Life App</h1>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">Campus Life</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="study.html">Study</a>
+      </div>
+    </nav>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="events.html">Events</a>
-    <a href="study.html">Study</a>
-  </nav>
+    <div class="hero-content">
+      <h1>Welcome to the Campus Life App</h1>
+      <p>Your all-in-one place for campus events, study tools, and student life updates.</p>
+      <button class="main-btn" onclick="showMessage()">Get Started</button>
+    </div>
+  </header>
 
-  <p>Welcome to my Campus Life Super App MVP.</p>
+  <main class="container">
+    <section class="cards">
+      <div class="card">
+        <h2>Upcoming Events</h2>
+        <p>Stay up to date with activities, student events, and campus opportunities.</p>
+      </div>
 
-  <button onclick="showMessage()">Click Me</button>
+      <div class="card">
+        <h2>Study Planner</h2>
+        <p>Organize your assignments, keep track of goals, and stay on top of your classes.</p>
+      </div>
+
+      <div class="card">
+        <h2>Campus Resources</h2>
+        <p>Quick access to important information that helps make student life easier.</p>
+      </div>
+    </section>
+  </main>
 
   <script src="js/script.js"></script>
 </body>
